@@ -1,0 +1,48 @@
+<template>
+  <div class="page10">
+    <div class="show-are">
+      <img class="title-bar" src="@|title-8.png|">
+      <div class="w980 link clearfix">
+        <img src="@|1.jpg|" width="67" height="49" alt="">
+        <img src="@|2.jpg|" width="81" height="49" alt="">
+        <img src="@|3.jpg|" width="90" height="43" alt="">
+        <img src="@|1.jpg|" width="67" height="49" alt="">
+        <img src="@|2.jpg|" width="81" height="49" alt="">
+        <img src="@|3.jpg|" width="90" height="43" alt="">
+        <img src="@|1.jpg|" width="67" height="49" alt="">
+        <img src="@|2.jpg|" width="81" height="49" alt="">
+        <img src="@|3.jpg|" width="90" height="43" alt="">
+        <img src="@|1.jpg|" width="67" height="49" alt="">
+        <img src="@|2.jpg|" width="81" height="49" alt="">
+        <img src="@|3.jpg|" width="90" height="43" alt="">
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+module.exports = {
+  created: function () {
+    owo.tool.touch({
+      el: this.$el,
+      end: function (e) {
+        if (e.swipe[0] < -100) {
+          owo.go('page11//moveToLeft/moveFromRight/true/moveToRight/moveFromLeft')
+        } else if (e.swipe[0] > 100) {
+          owo.go('page9//moveToRight/moveFromLeft/true/moveToLeft/moveFromRight')
+        }
+      }
+    })
+  }
+}
+</script>
+<style lang="less" original>
+.link {
+  margin: 40px auto;
+}
+.link img {
+  width: 220px;
+  height: 110px;
+  margin: 20px 65px;
+}
+</style>

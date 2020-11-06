@@ -1,0 +1,185 @@
+<template>
+  <div class="page5">
+    <div class="show-are">
+      <img class="title-bar" src="@|title-3.png|">
+      <div class="w980 p4Con clearfix">
+        <ul class="sub2 clearfix">
+          <li class="">
+            <i></i>
+            <span>2020年11月12日</span>
+          </li>
+          <li class="active">
+            <i></i>
+            <span>2020年11月13日</span>
+          </li>
+        </ul>
+        <div class="txt1 clearfix" style="display: none;">
+          <div>
+            <p>
+              09：10-09：35<br>
+              指导单位、主办方领导致辞
+            </p>
+            <p>
+              09：10-09：35<br>
+              指导单位、主办方领导致辞
+            </p>
+            <p>
+              09：10-09：35<br>
+              [案例征集]网聚“政”能量 共筑同心圆——各地走好网上群众路线典型案例征集展示活动启动
+            </p>
+            <p>
+              09：10-09：35<br>
+            [全国网上群众工作联盟]<br>
+            网上群众工作案例走进大学“思政课”
+            </p>
+          </div>
+          <div>
+            <p>
+              09：10-09：35<br>
+              指导单位、主办方领导致辞
+            </p>
+            <p>
+              09：10-09：35<br>
+              指导单位、主办方领导致辞
+            </p>
+            <p>
+              09：10-09：35<br>
+              [案例征集]网聚“政”能量 共筑同心圆——各地走好网上群众路线典型案例征集展示活动启动
+            </p>
+            <p>
+              09：10-09：35<br>
+            [全国网上群众工作联盟]<br>
+            网上群众工作案例走进大学“思政课”
+            </p>
+          </div>
+          <div>
+            <p>
+              09：10-09：35<br>
+              指导单位、主办方领导致辞
+            </p>
+            <p>
+              09：10-09：35<br>
+              指导单位、主办方领导致辞
+            </p>
+            <p>
+              09：10-09：35<br>
+              [案例征集]网聚“政”能量 共筑同心圆——各地走好网上群众路线典型案例征集展示活动启动
+            </p>
+            <p>
+              09：10-09：35<br>
+            [全国网上群众工作联盟]<br>
+            网上群众工作案例走进大学“思政课”
+            </p>
+          </div>
+        </div>
+
+        <div class="txt1 clearfix" style="display: block;">
+          <div>
+            <p>
+              09：10-09：35<br>
+              [全国网上群众工作联盟]<br>
+              网上群众工作案例走进大学“思政课”
+            </p>
+            <p>
+              09：10-09：35<br>
+              指导单位、主办方领导致辞
+            </p>
+            <p>
+              09：10-09：35<br>
+              [案例征集]网聚“政”能量 共筑同心圆——各地走好网上群众路线典型案例征集展示活动启动
+            </p>
+            <p>
+              09：10-09：35<br>
+              [全国网上群众工作联盟]<br>
+              网上群众工作案例走进大学“思政课”
+            </p>
+          </div>
+          <div>
+            <p>
+              09：10-09：35<br>
+              指导单位、主办方领导致辞
+            </p>
+            <p>
+              09：10-09：35<br>
+              指导单位、主办方领导致辞
+            </p>
+            <p>
+              09：10-09：35<br>
+              [案例征集]网聚“政”能量 共筑同心圆——各地走好网上群众路线典型案例征集展示活动启动
+            </p>
+            <p>
+              09：10-09：35<br>
+            [全国网上群众工作联盟]<br>
+            网上群众工作案例走进大学“思政课”
+            </p>
+          </div>
+          <div>
+            <p>
+              09：10-09：35<br>
+              指导单位、主办方领导致辞
+            </p>
+            <p>
+              09：10-09：35<br>
+              指导单位、主办方领导致辞
+            </p>
+            <p>
+              09：10-09：35<br>
+              [案例征集]网聚“政”能量 共筑同心圆——各地走好网上群众路线典型案例征集展示活动启动
+            </p>
+            <p>
+              09：10-09：35<br>
+            [全国网上群众工作联盟]<br>
+            网上群众工作案例走进大学“思政课”
+            </p>
+          </div>
+        </div>
+        <div class="btn1"><img src="@|btn1.png|" alt=""></div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+module.exports = {
+  created: function () {
+    owo.tool.touch({
+      el: this.$el,
+      end: function (e) {
+        if (e.swipe[0] < -100) {
+          owo.go('page6//moveToLeft/moveFromRight/true/moveToRight/moveFromLeft')
+        } else if (e.swipe[0] > 100) {
+          owo.go('page4//moveToRight/moveFromLeft/true/moveToLeft/moveFromRight')
+        }
+      }
+    })
+  }
+}
+</script>
+<style lang="less" original>
+.p4Con{margin-top:50px;}
+.sub2{
+  background:url(@|linex.png|) no-repeat center;
+  height: 30px;
+  display: flex;
+  margin: 40px 0;
+}
+.sub2 li{
+  width:100%;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  color: #555555;
+}
+.sub2 li i{width:24px;height:24px;background:#dcdcdc;border:3px solid #fff;display:block;border-radius: 24px;margin-left:46%;margin-bottom:5px;}
+.sub2 li.active i{background:#9978f6;}
+.txt1{overflow: hidden;width:100%}
+.txt1 div {
+  font-size: 28px;
+  line-height: 46px;
+  width: 100%;
+  float: left;
+  margin-top: 30px;
+}
+.txt1 div p{padding-bottom:10px;}
+.btn1{text-align: center;margin-top:20px;cursor: pointer;}
+</style>

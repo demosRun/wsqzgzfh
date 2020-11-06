@@ -1,0 +1,158 @@
+<template>
+<div class="page3">
+  <div class="show-are">
+    <img class="title-bar" src="@|title-1.png|">
+    <ul class="sub1 white clearfix">
+      <li class="pt20" id=""><span><br>发布<br>《2020全国网上群<br>众工作大数据》</span></li>
+      <li id=""><span><br><br>政企直通车<br>启动仪式</span></li>
+      <li id=""><span><br>网上群众工作<br>与社会治理<br>创新案例库<br>建立启动仪式</span></li>
+      <li class="pt30" id="active"><span><br>公布网民留言<br>办理工作<br>单位名单</span></li>
+    </ul>
+    <!--p2Box 1-->
+    <div class="w980 p2Con clearfix" style="display: block;">
+      <div class="fl">
+        <div class="scroll_pic1 white">
+          <div class="swiper-container swiper-container-p1" id="swiper-container-p1">
+              <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="http://health.people.com.cn/NMediaFile/2020/1015/MAIN202010150825515077270877676.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号1</span></div>
+              <div class="swiper-slide"><img src="http://health.people.com.cn/NMediaFile/2020/1012/MAIN202010121038269184940844158.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号2</span></div>
+              <div class="swiper-slide"><img src="http://health.people.com.cn/NMediaFile/2020/1011/MAIN202010110705397936349050606.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号3</span></div>
+              <div class="swiper-slide"><img src="http://health.people.com.cn/NMediaFile/2020/1013/MAIN202010130934002370306798174.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号4</span></div>
+              <div class="swiper-slide"><img src="http://health.people.com.cn/NMediaFile/2020/1010/MAIN202010100920362021145337714.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号5</span></div>
+              </div>
+          </div>
+          <div class="pagination1" id="pagination1"></div>
+        </div>
+      </div>
+      <div class="fr">
+        <h2>人民网“政点评”试点加盟仪式</h2>
+        <p>“走好网上群众路线，做好留言办理工作”，9月14日人民网网民留言办理工作会议暨践行网上群众路线表彰活动”在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。地方领导留言板是社情民意的晴雨表，是普通群众的监督哨，是人民公仆的连心桥。人民日报社副总编辑、留言板相关工作提出了建议与希望。中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。</p>
+        <p>人民网网民留言办理工作先进单位评选已连续举办十年，评选依据为各留言办理单位的年度留言回复量、回复率、办理效度。</p>
+      </div>
+    </div>
+    <!--p2Box 2-->
+    <div class="w980 p2Con clearfix" style="display: none;">
+      <div class="fl">
+        <div class="scroll_pic1 white">
+          <div class="swiper-container swiper-container-p1" id="swiper-container-p2">
+              <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="http://www.people.com.cn/NMediaFile/2020/1105/MAIN202011051044192576003211643.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号1</span></div>
+              <div class="swiper-slide"><img src="http://health.people.com.cn/NMediaFile/2020/1012/MAIN202010121038269184940844158.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号2</span></div>
+              <div class="swiper-slide"><img src="http://health.people.com.cn/NMediaFile/2020/1011/MAIN202010110705397936349050606.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号3</span></div>
+              <div class="swiper-slide"><img src="http://health.people.com.cn/NMediaFile/2020/1013/MAIN202010130934002370306798174.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号4</span></div>
+              <div class="swiper-slide"><img src="http://health.people.com.cn/NMediaFile/2020/1010/MAIN202010100920362021145337714.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号5</span></div>
+              </div>
+          </div>
+          <div class="pagination1" id="pagination2"></div>
+        </div>
+      </div>
+      <div class="fr">
+        <h2>人民网“政点评”试点加盟仪式2</h2>
+        <p>“走好网上群众路线，做好留言办理工作”，9月14日人民网网民留言办理工作会议暨践行网上群众路线表彰活动”在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。地方领导留言板是社情民意的晴雨表，是普通群众的监督哨，是人民公仆的连心桥。人民日报社副总编辑、留言板相关工作提出了建议与希望。中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。</p>
+        <p>人民网网民留言办理工作先进单位评选已连续举办十年，评选依据为各留言办理单位的年度留言回复量、回复率、办理效度。  </p>
+      </div>
+    </div>
+    <!--p2Box 3-->
+    <div class="w980 p2Con clearfix" style="display: none;">
+      <div class="fl">
+        <div class="scroll_pic1 white">
+          <div class="swiper-container swiper-container-p1" id="swiper-container-p3">
+              <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="http://health.people.com.cn/NMediaFile/2020/1012/MAIN202010121038269184940844158.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号1</span></div>
+              <div class="swiper-slide"><img src="http://www.people.com.cn/NMediaFile/2020/1105/MAIN202011051044192576003211643.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号2</span></div>
+              <div class="swiper-slide"><img src="http://health.people.com.cn/NMediaFile/2020/1011/MAIN202010110705397936349050606.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号3</span></div>
+              <div class="swiper-slide"><img src="http://health.people.com.cn/NMediaFile/2020/1013/MAIN202010130934002370306798174.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号4</span></div>
+              <div class="swiper-slide"><img src="http://health.people.com.cn/NMediaFile/2020/1010/MAIN202010100920362021145337714.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号5</span></div>
+              </div>
+          </div>
+          <div class="pagination1" id="pagination3"></div>
+        </div>
+      </div>
+      <div class="fr">
+        <h2>人民网“政点评”试点加盟仪式3</h2>
+        <p>“走好网上群众路线，做好留言办理工作”，9月14日人民网网民留言办理工作会议暨践行网上群众路线表彰活动”在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。地方领导留言板是社情民意的晴雨表，是普通群众的监督哨，是人民公仆的连心桥。人民日报社副总编辑、留言板相关工作提出了建议与希望。中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。</p>
+        <p>人民网网民留言办理工作先进单位评选已连续举办十年，评选依据为各留言办理单位的年度留言回复量、回复率、办理效度。  </p>
+      </div>
+    </div>
+    <!--p2Box 4-->
+    <div class="w980 p2Con clearfix" style="display: none;">
+      <div class="fl">
+        <div class="scroll_pic1 white">
+          <div class="swiper-container swiper-container-p1" id="swiper-container-p3">
+              <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="http://health.people.com.cn/NMediaFile/2020/1011/MAIN202010110705397936349050606.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号1</span></div>
+              <div class="swiper-slide"><img src="http://www.people.com.cn/NMediaFile/2020/1105/MAIN202011051044192576003211643.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号2</span></div>
+              <div class="swiper-slide"><img src="http://health.people.com.cn/NMediaFile/2020/1012/MAIN202010121038269184940844158.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号3</span></div>
+              <div class="swiper-slide"><img src="http://health.people.com.cn/NMediaFile/2020/1013/MAIN202010130934002370306798174.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号4</span></div>
+              <div class="swiper-slide"><img src="http://health.people.com.cn/NMediaFile/2020/1010/MAIN202010100920362021145337714.jpg" width="610" height="336"><span>宋体14号宋体14号宋体14号宋体14号宋体14号宋体14号5</span></div>
+              </div>
+          </div>
+          <div class="pagination1" id="pagination3"></div>
+        </div>
+      </div>
+      <div class="fr">
+        <h2>人民网“政点评”试点加盟仪式4</h2>
+        <p>“走好网上群众路线，做好留言办理工作”，9月14日人民网网民留言办理工作会议暨践行网上群众路线表彰活动”在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。地方领导留言板是社情民意的晴雨表，是普通群众的监督哨，是人民公仆的连心桥。人民日报社副总编辑、留言板相关工作提出了建议与希望。中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举办，是人民网连续第九次主办全国性的网民留言办理工作会。</p>
+        <p>人民网网民留言办理工作先进单位评选已连续举办十年，评选依据为各留言办理单位的年度留言回复量、回复率、办理效度。  </p>
+      </div>
+    </div>
+  </div>
+</div>
+</template>
+<script>
+module.exports = {
+  created: function () {
+    owo.tool.touch({
+      el: this.$el,
+      end: function (e) {
+        if (e.swipe[0] < -100) {
+          owo.go('page4//moveToLeft/moveFromRight/true/moveToRight/moveFromLeft')
+        } else if (e.swipe[0] > 100) {
+          owo.go('page2//moveToRight/moveFromLeft/true/moveToLeft/moveFromRight')
+        }
+      }
+    })
+  }
+}
+</script>
+<style lang="less" original>
+.tit1{text-align: center;margin-top:40px;}
+.sub1 {
+  width: 100%;
+  margin-top: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub1 li{float:left;margin:0 5px;cursor: pointer;}
+.sub1 li span{background:#809fec;border-radius:50%;border:10px solid #dee6fa;font-size: 16px;text-align: center;display: block;width:144px;height:144px;margin-top:20px;line-height:24px;}
+.sub1 li#active{background:url(@|p2_1.png|) no-repeat;width:187px;height:186px;}
+.sub1 li#active span{margin:20px 0 0 10px;background:#7376e0;border:10px solid #dbdcf7;}
+.sub1 li.pt20 span{padding-top: 10px;height:134px;}
+.sub1 li.pt30 span{padding-top: 14px;height:130px;}
+.p2Con.w980 {margin-top: 30px;width: 100%;}
+.p2Con .fl{width:750px;}
+.p2Con .fr {
+  width: 94%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.scroll_pic1{width:750px;height:420px;position:relative;}
+.swiper-container-p1{width:100%;height:420px;}
+.swiper-container-p1 .swiper-slide{position: relative;}
+.swiper-container-p1 .swiper-slide span{position: absolute;width:98%;font-size:25px;background:url(@|black_bg.png|);height: 50px;line-height: 50px;left:0;bottom:0;padding-left: 2%;}
+.pagination1{position: absolute;right:10px;text-align: right;bottom:20px;width: 100%;z-index: 99;}
+.pagination1 .swiper-pagination-switch {display: inline-block;width:10px;height:10px;border-radius:10px;background:#999;margin-right:6px;cursor: pointer;}
+.pagination1 .swiper-active-switch {background: #d21e1e;}
+.p2Con .fr h2 {
+  font: bold 39px/50px \5FAE\8F6F\96C5\9ED1;
+  margin-bottom: 8px;
+}
+.p2Con .fr p {
+  text-indent: 2em;
+  color: #666;
+  line-height: 195%;
+  text-align: justify;
+  font-size: 26px;
+}
+</style>

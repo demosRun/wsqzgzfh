@@ -1,0 +1,48 @@
+<template lang="pug">
+.page-1
+  img.so.so-0(src="@|203.png|")
+  img.so.so-1(src="@|205.png|")
+  img.so.so-2(src="@|204.png|")
+  .left-slide-box
+    img.hand(src="@|hand.png|" o-animation="floatLeftRight")
+    p 跟随手势 查看更多
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      owo.tool.touch({
+        el: this.$el,
+        end: function (e) {
+          if (e.swipe[0] < -100) {
+            owo.go('page2//moveToLeft/moveFromRight/true/moveToRight/moveFromLeft')
+          } else if (e.swipe[0] > 100) {
+            owo.tool.toast('已经是第一页了')
+          }
+        }
+      })
+    }
+  }
+</script>
+
+
+<style lang="less" original>
+.page-1 {
+  background-image: url('@|209.jpg|');
+}
+.so-0 {
+  left: 31px;
+  top: 369px;
+  z-index: 2;
+}
+.so-1 {
+  left: 35px;
+  top: 723px;
+  z-index: 1;
+}
+.so-2 {
+  left: 175px;
+  top: 856px;
+  z-index: 0;
+}
+</style>

@@ -1,0 +1,50 @@
+<template>
+  <div class="page4">
+    <div class="show-are">
+      <img class="title-bar" src="@|title-2.png|">
+      <div class="w980 p3Con clearfix">
+        <div class="fl">
+          <img src="http://health.people.com.cn/NMediaFile/2020/1011/MAIN202010110705397936349050606.jpg" width="610" height="372">
+        </div>
+        <div class="fr">
+          <h3>分论坛一：各地留言办理单位经验交流</h3>
+          <p>距30px字体宋体，字号14号，行字号14号，行行间距30px字体宋体，字号14号字号14号字号14号行间距30px字体宋体……<a href="" class="red" target="_blank">[详细]</a></p>
+          <h3>分论坛二：各地留言办理单位经验交流</h3>
+          <p style="border-bottom: none;">距30px字体宋体，字号14号，行字号14号，行行间距30px字体宋体，字号14号字号14号字号距30px字体宋体，字号14号，行字号14号，行行间距30px字体宋体，字号14号字号14号字号14号行间距30px字体宋体……<a href="" class="red" target="_blank">[详细]</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+module.exports = {
+  created: function () {
+    owo.tool.touch({
+      el: this.$el,
+      end: function (e) {
+        if (e.swipe[0] < -100) {
+          owo.go('page5//moveToLeft/moveFromRight/true/moveToRight/moveFromLeft')
+        } else if (e.swipe[0] > 100) {
+          owo.go('page3//moveToRight/moveFromLeft/true/moveToLeft/moveFromRight')
+        }
+      }
+    })
+  }
+}
+</script>
+<style lang="less" original>
+.p3Con.w980 {margin-top:50px;}
+.p3Con .fl{width:100%;}
+.p3Con .fl img {
+  width: 100%;
+  height: auto;
+}
+.p3Con .fr{width:100%;padding:0 20px 0 10px;}
+.p3Con .fr h3{font: bold 33px/58px \5FAE\8F6F\96C5\9ED1;margin-top:25px;}
+.p3Con .fr p {
+  font-size: 29px;
+  line-height: 46px;
+  padding: 8px 0 20px 0;
+  border-bottom: 1px solid #dedede;
+}
+</style>

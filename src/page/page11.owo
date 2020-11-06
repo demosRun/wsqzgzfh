@@ -1,0 +1,61 @@
+<template lang="pug">
+.page11
+  img.so.so-0(src="@|213.png|")
+  img.so.so-1(src="@|210.png|")
+  img.so.so-2(src="@|170.png|")
+  img.so.so-3(src="@|172.png|")
+  img.so.so-4(src="@|153.png|")
+  img.so.so-5(src="@|174.png|")
+</template>
+<script>
+module.exports = {
+  created: function () {
+    owo.tool.touch({
+      el: this.$el,
+      end: function (e) {
+        if (e.swipe[0] < -100) {
+          owo.tool.toast('已经是最后一页了')
+        } else if (e.swipe[0] > 100) {
+          owo.go('page10//moveToRight/moveFromLeft/true/moveToLeft/moveFromRight')
+        }
+      }
+    })
+  }
+}
+</script>
+<style lang="less">
+.page11 {
+  background-image: url('@|209.jpg|');
+}
+.so-0 {
+  left: 211px;
+  top: 280px;
+  z-index: 5;
+}
+.so-1 {
+  left: 213px;
+  top: 540px;
+  z-index: 4;
+}
+.so-2 {
+  left: 117px;
+  top: 700px;
+  z-index: 3;
+}
+.so-3 {
+  left: 411px;
+  top: 700px;
+  z-index: 2;
+}
+.so-4 {
+  left: 153px;
+  top: 933px;
+  z-index: 1;
+}
+.so-5 {
+  left: 448px;
+  top: 935px;
+  z-index: 0;
+}
+
+</style>

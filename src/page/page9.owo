@@ -1,0 +1,45 @@
+<template>
+  <div class="page9">
+    <div class="show-are">
+      <img class="title-bar" src="@|title-7.png|">
+      <div class="w980 p5Con clearfix">
+        <ul class="pic2 clearfix">
+          <li><img src="http://leaders.people.com.cn/NMediaFile/2018/0921/MAIN201809210854519822755065110.jpg" width="216" height="156" alt=""><p>图片说明（两排文字）图片说明图片（两排文字）（两排文字）</p></li>
+          <li><img src="http://leaders.people.com.cn/NMediaFile/2018/1024/MAIN201810240913425612061674875.jpg" width="216" height="156" alt=""><p>图片说明（两排文字）图片说明图片（两排文字）（两排文字）</p></li>
+          <li><img src="http://leaders.people.com.cn/NMediaFile/2018/0921/MAIN201809210854519822755065110.jpg" width="216" height="156" alt=""><p>图片说明（两排文字）图片说明图片（两排文字）（两排文字）</p></li>
+          <li style="margin-right: 0px;"><img src="http://leaders.people.com.cn/NMediaFile/2018/1024/MAIN201810240913425612061674875.jpg" width="216" height="156" alt=""><p>图片说明（两排文字）图片说明图片（两排文字）（两排文字）</p></li>
+          <li><img src="http://leaders.people.com.cn/NMediaFile/2018/0921/MAIN201809210854519822755065110.jpg" width="216" height="156" alt=""><p>图片说明（两排文字）图片说明图片（两排文字）（两排文字）</p></li>
+          <li><img src="http://leaders.people.com.cn/NMediaFile/2018/1024/MAIN201810240913425612061674875.jpg" width="216" height="156" alt=""><p>图片说明（两排文字）图片说明图片（两排文字）（两排文字）</p></li>
+          <li><img src="http://leaders.people.com.cn/NMediaFile/2018/0921/MAIN201809210854519822755065110.jpg" width="216" height="156" alt=""><p>图片说明（两排文字）图片说明图片（两排文字）（两排文字）</p></li>
+          <li style="margin-right: 0px;"><img src="http://leaders.people.com.cn/NMediaFile/2018/1024/MAIN201810240913425612061674875.jpg" width="216" height="156" alt=""><p>图片说明（两排文字）图片说明图片（两排文字）（两排文字）</p></li>
+          <li><img src="http://leaders.people.com.cn/NMediaFile/2018/0921/MAIN201809210854519822755065110.jpg" width="216" height="156" alt=""><p>图片说明（两排文字）图片说明图片（两排文字）（两排文字）</p></li>
+          <li><img src="http://leaders.people.com.cn/NMediaFile/2018/1024/MAIN201810240913425612061674875.jpg" width="216" height="156" alt=""><p>图片说明（两排文字）图片说明图片（两排文字）（两排文字）</p></li>
+          <li><img src="http://leaders.people.com.cn/NMediaFile/2018/0921/MAIN201809210854519822755065110.jpg" width="216" height="156" alt=""><p>图片说明（两排文字）图片说明图片（两排文字）（两排文字）</p></li>
+          <li style="margin-right: 0px;"><img src="http://leaders.people.com.cn/NMediaFile/2018/1024/MAIN201810240913425612061674875.jpg" width="216" height="156" alt=""><p>图片说明（两排文字）图片说明图片（两排文字）（两排文字）</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+module.exports = {
+  created: function () {
+    owo.tool.touch({
+      el: this.$el,
+      end: function (e) {
+        if (e.swipe[0] < -100) {
+          owo.go('page10//moveToLeft/moveFromRight/true/moveToRight/moveFromLeft')
+        } else if (e.swipe[0] > 100) {
+          owo.go('page8//moveToRight/moveFromLeft/true/moveToLeft/moveFromRight')
+        }
+      }
+    })
+  }
+}
+</script>
+<style lang="less" original>
+.p5Con li p {
+  margin-top: 10px;
+}
+</style>

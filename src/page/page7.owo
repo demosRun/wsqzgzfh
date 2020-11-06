@@ -1,0 +1,153 @@
+<template>
+  <div class="page7">
+    <div class="show-are">
+      <img class="title-bar" src="@|title-5.png|">
+      <div class="w980 p6Con clearfix">
+        <div class="swiper-container swiper-container-p5" style="cursor: -webkit-grab;">
+            <div class="swiper-wrapper" style="width: 3920px; height: 342px; transform: translate3d(-980px, 0px, 0px); transition-duration: 0s;"><div class="swiper-slide swiper-slide-duplicate" style="width: 980px; height: 342px;">
+              <span>
+                <img src="http://leaders.people.com.cn/NMediaFile/2018/0921/MAIN201809210854519822755065110.jpg" width="611" height="342" alt="">
+                <i></i>
+              </span>
+              <b>视频展示“留言办理工作助力贫困县摘帽”回访案例</b>
+              <p>“走好网上群众路线，做好留言办理工作”，9月14日人
+              民网网民留言办理工作会议暨践行网上群众路线表彰活动”
+              在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公
+              厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举
+              办，是人民网连续第九次主办全国性的网民留言办理工作
+              会。地方领导留言板是社情民意的晴雨表，是普通群众的监
+              督哨，是人民公仆的连心桥。</p>
+              <p>人民日报社副总编辑、留言板相关工作提出了建议与希望。
+              中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政
+              府办公厅共同举办，是人民网连续第九次主办全国性的网民
+              留言办理工作会。
+              </p>
+            </div>
+            <div class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 980px; height: 342px;">
+              <span>
+                <img src="http://leaders.people.com.cn/NMediaFile/2018/1024/MAIN201810240913425612061674875.jpg" width="611" height="342" alt="">
+                <i></i>
+              </span>
+              <b>视频展示“留言办理工作助力贫困县摘帽”回访案例</b>
+              <p>“走好网上群众路线，做好留言办理工作”，9月14日人
+              民网网民留言办理工作会议暨践行网上群众路线表彰活动”
+              在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公
+              厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举
+              办，是人民网连续第九次主办全国性的网民留言办理工作
+              会。地方领导留言板是社情民意的晴雨表，是普通群众的监
+              督哨，是人民公仆的连心桥。</p>
+              <p>人民日报社副总编辑、留言板相关工作提出了建议与希望。
+              中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政
+              府办公厅共同举办，是人民网连续第九次主办全国性的网民
+              留言办理工作会。
+              </p>
+            </div>
+            <div class="swiper-slide" style="width: 980px; height: 342px;">
+              <span>
+                <img src="http://leaders.people.com.cn/NMediaFile/2018/0921/MAIN201809210854519822755065110.jpg" width="611" height="342" alt="">
+                <i></i>
+              </span>
+              <b>视频展示“留言办理工作助力贫困县摘帽”回访案例</b>
+              <p>“走好网上群众路线，做好留言办理工作”，9月14日人
+              民网网民留言办理工作会议暨践行网上群众路线表彰活动”
+              在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公
+              厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举
+              办，是人民网连续第九次主办全国性的网民留言办理工作
+              会。地方领导留言板是社情民意的晴雨表，是普通群众的监
+              督哨，是人民公仆的连心桥。</p>
+              <p>人民日报社副总编辑、留言板相关工作提出了建议与希望。
+              中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政
+              府办公厅共同举办，是人民网连续第九次主办全国性的网民
+              留言办理工作会。
+              </p>
+            </div>
+            <div class="swiper-slide swiper-slide-duplicate" style="width: 980px; height: 342px;">
+              <span>
+                <img src="http://leaders.people.com.cn/NMediaFile/2018/1024/MAIN201810240913425612061674875.jpg" width="611" height="342" alt="">
+                <i></i>
+              </span>
+              <b>视频展示“留言办理工作助力贫困县摘帽”回访案例</b>
+              <p>“走好网上群众路线，做好留言办理工作”，9月14日人
+              民网网民留言办理工作会议暨践行网上群众路线表彰活动”
+              在辽宁沈阳开幕。本次会议由人民网与中共辽宁省委办公
+              厅、中共辽宁省委宣传部、辽宁省人民政府办公厅共同举
+              办，是人民网连续第九次主办全国性的网民留言办理工作
+              会。地方领导留言板是社情民意的晴雨表，是普通群众的监
+              督哨，是人民公仆的连心桥。</p>
+              <p>人民日报社副总编辑、留言板相关工作提出了建议与希望。
+              中共辽宁省委办公厅、中共辽宁省委宣传部、辽宁省人民政
+              府办公厅共同举办，是人民网连续第九次主办全国性的网民
+              留言办理工作会。
+              </p>
+            </div></div>
+        </div>
+        <div class="pagination5"><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch">1</span><span class="swiper-pagination-switch">2</span></div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+module.exports = {
+  created: function () {
+    owo.tool.touch({
+      el: this.$el,
+      end: function (e) {
+        if (e.swipe[0] < -100) {
+          owo.go('page8//moveToLeft/moveFromRight/true/moveToRight/moveFromLeft')
+        } else if (e.swipe[0] > 100) {
+          owo.go('page6//moveToRight/moveFromLeft/true/moveToLeft/moveFromRight')
+        }
+      }
+    })
+  }
+}
+</script>
+
+<style lang="less" original>
+.p6Con.w980 {margin: 40px auto 0 auto;position: relative;height: 1100px;}
+.p6Con.w980 .swiper-container-p5 {
+  width: 700px;
+  height: 1020px;
+  overflow: auto;
+}
+.swiper-container-p5 .swiper-slide span{
+  position: relative;
+  width: 100%;
+}
+.swiper-container-p5 .swiper-slide span i{background:url(@|vbg1.png|) no-repeat;width:52px;height:52px;position: absolute;bottom:15px;left:19px}
+.swiper-container-p5 .swiper-slide b {
+  font-size: 38px;
+  line-height: 55px;
+  margin-top: 25px;
+  display: block;
+}
+.swiper-container-p5 .swiper-slide p {
+  color: #666;
+  text-indent: 2em;
+  line-height: 190%;
+  font-size: 26px;
+}
+.pagination5 {
+  left: 0;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+  z-index: 999;
+  margin-top: 30px;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 26px;
+  background: #e5e5e5;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.swiper-active-switch {background: #9f8df0;color:#fff}
+.swiper-container-p5 .swiper-slide span img {
+  height: auto;
+}
+</style>
