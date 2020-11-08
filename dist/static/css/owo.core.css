@@ -101,6 +101,10 @@ li {
   top: 856px;
   z-index: 0;
 }
+.scroll_pic0 {
+  position: relative;
+}
+
 .swiper-container-p0 {
   width: 750px;
   height: 120vw;
@@ -125,13 +129,15 @@ li {
   padding-left: 70px;
 }
 
-.swiper-container-p0 .swiper-slide i {
+.scroll_pic0 i.vball {
   background: url(../resource/video.png) no-repeat;
   width: 36px;
   height: 36px;
   position: absolute;
   bottom: 13px;
   left: 17px;
+  z-index: 999;
+  cursor: pointer;
 }
 
 .swiper-container-p0 .swiper-pagination0 {
@@ -232,6 +238,31 @@ li {
   font-size: 32px;
   line-height: 59px;
   margin: 15px 0;
+}
+
+.video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  height: 100%;
+  background-color: black;
+}
+
+.video video {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.video i {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 998;
+  color: white;
+  font-style: normal;
+  font-size: 24px;
 }
 .tit1 {
   text-align: center;
@@ -448,6 +479,7 @@ li {
   text-align: center;
   margin-top: 20px;
   cursor: pointer;
+  display: none;
 }
 .pic2 {
   width: 100%;
@@ -481,6 +513,7 @@ li {
   width: 100%;
   line-height: 50px;
   color: #666;
+  display: none;
 }
 
 .more1 img {
@@ -776,5 +809,21 @@ li {
 }
 @keyframes moveFromLeft {
 	from { transform: translateX(-100%); }
+}
+
+/* 动画效果 */
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  animation-name: zoomIn;
 }
 

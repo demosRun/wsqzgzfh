@@ -50,7 +50,7 @@
 				</div>
 			</div>
 			<div class="video" style="display: none;">
-				<i></i>
+				<i>关闭视频</i>
 				<video src="http://flv3.people.com.cn/dev1/mvideo/vodfiles/2020/11/05/f82a3b61861c6825fdce8cf3cc1d90ab_c.mp4" controls="controls" poster="http://flv3.people.com.cn/dev1/video/2020/11/5/174ab5995cc85c2d26df090a26c649e5.jpg" style="width:980px;height:485px;margin:0 auto;"></video>
 			</div>
 		</div>
@@ -543,6 +543,7 @@
 owo.script = {
   "page1": {
     "created": function created() {
+      owo.animate('zoomIn', this.query('.so-0'));
       owo.tool.touch({
         el: this.$el,
         end: function end(e) {
