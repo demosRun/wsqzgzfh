@@ -101,6 +101,31 @@ li {
   top: 856px;
   z-index: 0;
 }
+@-webkit-keyframes flicker {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 20%;
+  }
+}
+
+@keyframes flicker {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 20%;
+  }
+}
+
+[o-animation="flicker"] {
+  -webkit-animation: flicker 2s linear 0s infinite alternate;
+  animation: flicker 2s linear 0s infinite alternate;
+}
+
 .scroll_pic0 {
   position: relative;
 }
@@ -276,6 +301,15 @@ li {
   font-style: normal;
   font-size: 24px;
 }
+
+.exp {
+  height: calc(100% - 80px);
+  overflow: hidden;
+}
+
+.more .exp {
+  height: auto;
+}
 .tit1 {
   text-align: center;
   margin-top: 40px;
@@ -446,31 +480,6 @@ li {
   height: calc(100% - 426px);
   overflow: hidden;
 }
-@-webkit-keyframes flicker {
-  from {
-    opacity: 100%;
-  }
-
-  to {
-    opacity: 20%;
-  }
-}
-
-@keyframes flicker {
-  from {
-    opacity: 100%;
-  }
-
-  to {
-    opacity: 20%;
-  }
-}
-
-[o-animation="flicker"] {
-  -webkit-animation: flicker 2s linear 0s infinite alternate;
-  animation: flicker 2s linear 0s infinite alternate;
-}
-
 .p4Con {
   margin-top: 50px;
 }
@@ -582,6 +591,7 @@ li {
   bottom: 10px;
   width: 70px;
   height: 70px;
+  display: none;
 }
 
 .menu .menu-icon {

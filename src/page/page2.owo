@@ -1,69 +1,75 @@
 <template>
 <div class="page2">
   <div class="show-are">
-    <div class="scroll_pic0 clearfix">
-			<a id="next1" href="#" style="display: inline;"></a>
-			<i class="vball"></i>
-			<div class="swiper-container swiper-container-p0 white" style="display: block;">
-				<div class="swiper-wrapper" style="width: 4900px; height: 485px; transform: translate3d(-1960px, 0px, 0px); transition-duration: 0.3s;"><div class="swiper-slide swiper-slide-duplicate" style="width: 980px; height: 485px;"><a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2020/0430/MAIN202004300934045148420357519.jpg" width="980" height="485" alt=""></a><span>黄鹤楼重新开放</span></div>
-					<div class="swiper-slide" style="width: 980px; height: 485px;"><a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2020/0429/MAIN202004291531214577401252874.jpg" width="980" height="485" alt=""></a><span>“江口沉银”遗址首现“蜀世子宝”金印 重约16斤</span></div>
-					<div class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 980px; height: 485px;"><a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2020/0429/MAIN202004291443332103579076133.jpg" width="980" height="485" alt=""></a><span>天坛600岁老墙遭游客乱涂乱划 有人连续3年刻"到此一游"</span></div>
-					<div class="swiper-slide" style="width: 980px; height: 485px;"><a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2020/0430/MAIN202004300934045148420357519.jpg" width="980" height="485" alt=""></a><span>黄鹤楼重新开放</span></div>
-				<div class="swiper-slide swiper-slide-duplicate" style="width: 980px; height: 485px;"><a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2020/0429/MAIN202004291531214577401252874.jpg" width="980" height="485" alt=""></a><span>“江口沉银”遗址首现“蜀世子宝”金印 重约16斤</span></div></div>
-				<div class="swiper-pagination0"><span class="swiper-pagination-switch"></span><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span><span class="swiper-pagination-switch"></span></div>
-				<div class="num0">
-					<i><em class="thisp">2</em>/<em class="allp">3</em></i>
-				</div>
-			</div>
-			<div class="video" style="display: none;">
-				<i>关闭视频</i>
-				<video src="http://flv3.people.com.cn/dev1/mvideo/vodfiles/2020/11/05/f82a3b61861c6825fdce8cf3cc1d90ab_c.mp4" controls="controls" poster="http://flv3.people.com.cn/dev1/video/2020/11/5/174ab5995cc85c2d26df090a26c649e5.jpg" style="width:980px;height:485px;margin:0 auto;"></video>
-			</div>
-		</div>
-    <div class="allow-swipe">
-      <div class="w980 news">
-        <h1>今年国庆中秋假期全国安全形势总体平稳</h1>
-        <p>我为家乡“十四五”规划编制献一策：建议加快农村旱厕改造</p>
+    <div class="exp">
+      <div class="scroll_pic0 clearfix">
+        <a id="next1" href="#" style="display: inline;"></a>
+        <i class="vball"></i>
+        <div class="swiper-container swiper-container-p0 white" style="display: block;">
+          <div class="swiper-wrapper" style="width: 4900px; height: 485px; transform: translate3d(-1960px, 0px, 0px); transition-duration: 0.3s;"><div class="swiper-slide swiper-slide-duplicate" style="width: 980px; height: 485px;"><a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2020/0430/MAIN202004300934045148420357519.jpg" width="980" height="485" alt=""></a><span>黄鹤楼重新开放</span></div>
+            <div class="swiper-slide" style="width: 980px; height: 485px;"><a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2020/0429/MAIN202004291531214577401252874.jpg" width="980" height="485" alt=""></a><span>“江口沉银”遗址首现“蜀世子宝”金印 重约16斤</span></div>
+            <div class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 980px; height: 485px;"><a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2020/0429/MAIN202004291443332103579076133.jpg" width="980" height="485" alt=""></a><span>天坛600岁老墙遭游客乱涂乱划 有人连续3年刻"到此一游"</span></div>
+            <div class="swiper-slide" style="width: 980px; height: 485px;"><a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2020/0430/MAIN202004300934045148420357519.jpg" width="980" height="485" alt=""></a><span>黄鹤楼重新开放</span></div>
+          <div class="swiper-slide swiper-slide-duplicate" style="width: 980px; height: 485px;"><a href="#" target="_blank"><img src="http://www.people.com.cn/NMediaFile/2020/0429/MAIN202004291531214577401252874.jpg" width="980" height="485" alt=""></a><span>“江口沉银”遗址首现“蜀世子宝”金印 重约16斤</span></div></div>
+          <div class="swiper-pagination0"><span class="swiper-pagination-switch"></span><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span><span class="swiper-pagination-switch"></span></div>
+          <div class="num0">
+            <i><em class="thisp">2</em>/<em class="allp">3</em></i>
+          </div>
+        </div>
+        <div class="video" style="display: none;">
+          <i>关闭视频</i>
+          <video src="http://flv3.people.com.cn/dev1/mvideo/vodfiles/2020/11/05/f82a3b61861c6825fdce8cf3cc1d90ab_c.mp4" controls="controls" poster="http://flv3.people.com.cn/dev1/video/2020/11/5/174ab5995cc85c2d26df090a26c649e5.jpg" style="width:980px;height:485px;margin:0 auto;"></video>
+        </div>
       </div>
-      <div class="w980 p1Con clearfix">
-        <ul class="pic1">
-          <li>
-            <img src="http://liuyan.people.com.cn/NMediaFile/2018/1030/MAIN201810300808372382937847751.jpg" width="224" height="132" alt="">
-            <b>中国社会科学院社会政策研究中心研究员唐钧：</b>
-            <p>用好网上群众工作平台，普惠民生政策关怀。面对网友诉求领导干部不宜“躲”。<a href="" class="red" target="_blank">[详细]</a></p>
-          </li>
-          <li>
-            <img src="http://liuyan.people.com.cn/NMediaFile/2018/1030/MAIN201810300808372382937847751.jpg" width="224" height="132" alt="">
-            <b>中国社会科学院社会政策研究中心研究员唐钧：</b>
-            <p>用好网上群众工作平台，普惠民生政策关怀。面对网友诉求领导干部不宜“躲”。<a href="" class="red" target="_blank">[详细]</a></p>
-          </li>
-          <li>
-            <img src="http://liuyan.people.com.cn/NMediaFile/2018/1030/MAIN201810300808372382937847751.jpg" width="224" height="132" alt="">
-            <b>中国社会科学院社会政策研究中心研究员唐钧：</b>
-            <p>用好网上群众工作平台，普惠民生政策关怀。面对网友诉求领导干部不宜“躲”。<a href="" class="red" target="_blank">[详细]</a></p>
-          </li>
-          <li>
-            <img src="http://liuyan.people.com.cn/NMediaFile/2018/1030/MAIN201810300808372382937847751.jpg" width="224" height="132" alt="">
-            <b>中国社会科学院社会政策研究中心研究员唐钧：</b>
-            <p>用好网上群众工作平台，普惠民生政策关怀。面对网友诉求领导干部不宜“躲”。<a href="" class="red" target="_blank">[详细]</a></p>
-          </li>
-        </ul>
-        <ul class="list1 list_18 clearfix">
-          <li>人民日报评论：“地方领导留言板”为何越办越火</li>
-          <li>电子体育是体育+科技 中国电竞还有很长路要走</li>
-          <li>家是一种归属感 年轻人关注国家政策有利发展</li>
-          <li>电子体育是体育+科技 中国电竞还有很长路要走</li>
-          <li>人民日报评论：“地方领导留言板”为何越办越火</li>
-        </ul>
-        
-        <ul class="list1 list_18 clearfix">
-          <li>人民日报评论：“地方领导留言板”为何越办越火</li>
-          <li>电子体育是体育+科技 中国电竞还有很长路要走</li>
-          <li>家是一种归属感 年轻人关注国家政策有利发展</li>
-          <li>电子体育是体育+科技 中国电竞还有很长路要走</li>
-          <li>人民日报评论：“地方领导留言板”为何越办越火</li>
-        </ul>
+      <div class="allow-swipe">
+        <div class="w980 news">
+          <h1>今年国庆中秋假期全国安全形势总体平稳</h1>
+          <p>我为家乡“十四五”规划编制献一策：建议加快农村旱厕改造</p>
+        </div>
+        <div class="w980 p1Con clearfix">
+          <ul class="pic1">
+            <li>
+              <img src="http://liuyan.people.com.cn/NMediaFile/2018/1030/MAIN201810300808372382937847751.jpg" width="224" height="132" alt="">
+              <b>中国社会科学院社会政策研究中心研究员唐钧：</b>
+              <p>用好网上群众工作平台，普惠民生政策关怀。面对网友诉求领导干部不宜“躲”。<a href="" class="red" target="_blank">[详细]</a></p>
+            </li>
+            <li>
+              <img src="http://liuyan.people.com.cn/NMediaFile/2018/1030/MAIN201810300808372382937847751.jpg" width="224" height="132" alt="">
+              <b>中国社会科学院社会政策研究中心研究员唐钧：</b>
+              <p>用好网上群众工作平台，普惠民生政策关怀。面对网友诉求领导干部不宜“躲”。<a href="" class="red" target="_blank">[详细]</a></p>
+            </li>
+            <li>
+              <img src="http://liuyan.people.com.cn/NMediaFile/2018/1030/MAIN201810300808372382937847751.jpg" width="224" height="132" alt="">
+              <b>中国社会科学院社会政策研究中心研究员唐钧：</b>
+              <p>用好网上群众工作平台，普惠民生政策关怀。面对网友诉求领导干部不宜“躲”。<a href="" class="red" target="_blank">[详细]</a></p>
+            </li>
+            <li>
+              <img src="http://liuyan.people.com.cn/NMediaFile/2018/1030/MAIN201810300808372382937847751.jpg" width="224" height="132" alt="">
+              <b>中国社会科学院社会政策研究中心研究员唐钧：</b>
+              <p>用好网上群众工作平台，普惠民生政策关怀。面对网友诉求领导干部不宜“躲”。<a href="" class="red" target="_blank">[详细]</a></p>
+            </li>
+          </ul>
+          <ul class="list1 list_18 clearfix">
+            <li>人民日报评论：“地方领导留言板”为何越办越火</li>
+            <li>电子体育是体育+科技 中国电竞还有很长路要走</li>
+            <li>家是一种归属感 年轻人关注国家政策有利发展</li>
+            <li>电子体育是体育+科技 中国电竞还有很长路要走</li>
+            <li>人民日报评论：“地方领导留言板”为何越办越火</li>
+          </ul>
+          
+          <ul class="list1 list_18 clearfix">
+            <li>人民日报评论：“地方领导留言板”为何越办越火</li>
+            <li>电子体育是体育+科技 中国电竞还有很长路要走</li>
+            <li>家是一种归属感 年轻人关注国家政策有利发展</li>
+            <li>电子体育是体育+科技 中国电竞还有很长路要走</li>
+            <li>人民日报评论：“地方领导留言板”为何越办越火</li>
+          </ul>
+        </div>
       </div>
+    </div>
+    <div class="btn1" o-animation="flicker" o-tap="showMore">
+      加载显示更多
+      <img src="@|more.png|" alt="">
     </div>
   </div>
 </div>
@@ -71,7 +77,7 @@
 <script>
 module.exports = {
   created: function () {
-    console.log(document.querySelector('.menu'))
+    document.querySelector('.menu').style.display = 'block'
     owo.tool.touch({
       el: this.query('.allow-swipe'),
       end: function (e) {
@@ -82,6 +88,10 @@ module.exports = {
         }
       }
     })
+  },
+  showMore: function () {
+    this.$el.classList.add('more')
+    this.$target.style.display = 'none'
   }
 }
 </script>
@@ -173,5 +183,12 @@ module.exports = {
   color: white;
   font-style: normal;
   font-size: 24px;
+}
+.exp {
+  height: calc(100% - 80px);
+  overflow: hidden;
+}
+.more .exp {
+  height: auto;
 }
 </style>

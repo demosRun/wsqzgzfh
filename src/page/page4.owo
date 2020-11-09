@@ -24,6 +24,7 @@
 <script>
 module.exports = {
   created: function () {
+    document.querySelector('.menu').style.display = 'block'
     owo.tool.touch({
       el: this.$el,
       end: function (e) {
