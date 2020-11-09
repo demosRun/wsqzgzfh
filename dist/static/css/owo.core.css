@@ -214,20 +214,32 @@ li {
   font-size: 22px;
   line-height: 28px;
   overflow: hidden;
+  width: 50%;
+  float: left;
+}
+
+.pic1 li p {
+  display: none;
 }
 
 .pic1 li img {
-  float: left;
-  margin-right: 22px;
-  width: 291px;
-  height: 172px;
+  width: 310px;
+  height: 192px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .pic1 li b {
   display: block;
-  font-size: 32px;
-  line-height: 39px;
+  font-size: 26px;
+  line-height: 40px;
   margin-bottom: 5px;
+  padding: 0 10px;
+  text-align: center;
+  font-weight: normal;
+  height: 80px;
+  overflow: hidden;
 }
 
 .list1 {
@@ -424,6 +436,41 @@ li {
   padding: 8px 0 20px 0;
   border-bottom: 1px solid #dedede;
 }
+
+.p4Con {
+  height: calc(100% - 192px);
+}
+
+.txt1 {
+  display: block;
+  height: calc(100% - 426px);
+  overflow: hidden;
+}
+@-webkit-keyframes flicker {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 20%;
+  }
+}
+
+@keyframes flicker {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 20%;
+  }
+}
+
+[o-animation="flicker"] {
+  -webkit-animation: flicker 2s linear 0s infinite alternate;
+  animation: flicker 2s linear 0s infinite alternate;
+}
+
 .p4Con {
   margin-top: 50px;
 }
@@ -459,8 +506,7 @@ li {
 }
 
 .txt1 {
-  overflow: hidden;
-  width: 100%;
+  height: calc(100% - 180px);
 }
 
 .txt1 div {
@@ -479,7 +525,17 @@ li {
   text-align: center;
   margin-top: 20px;
   cursor: pointer;
-  display: none;
+  font-size: 26px;
+  color: #333;
+}
+
+.btn1 img {
+  display: inline-block;
+  height: 20px;
+}
+
+.more .txt1 {
+  height: auto;
 }
 .pic2 {
   width: 100%;
@@ -487,23 +543,23 @@ li {
   overflow: hidden;
 }
 
-.pic2 li {
+.page6 .pic2 li {
   float: left;
-  width: 100%;
-  font-size: 32px;
+  width: calc(50% - 20px);
+  font-size: 24px;
   margin: 0 10px;
   overflow: hidden;
-  line-height: 56px;
+  line-height: 36px;
   margin-top: 10px;
   color: #333;
 }
 
-.pic2 li img {
+.page6 .pic2 li img {
   display: block;
-  margin-bottom: 8px;
+  height: 192px;
   margin: 0 auto;
   width: 100%;
-  height: auto;
+  margin-bottom: 8px;
 }
 
 .more1 {
@@ -523,10 +579,9 @@ li {
 .menu {
   position: absolute;
   right: 10px;
-  top: 60px;
+  bottom: 10px;
   width: 70px;
   height: 70px;
-  display: none;
 }
 
 .menu .menu-icon {
@@ -536,6 +591,7 @@ li {
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 0.9;
 }
 
 .menu .menu-item {
@@ -555,11 +611,11 @@ li {
   line-height: 22px;
   position: absolute;
   width: 60px;
-  top: 0;
+  bottom: 0;
   z-index: 1;
-  padding-top: 70px;
+  padding-bottom: 70px;
   border-radius: 35px;
-  padding-bottom: 30px;
+  padding-top: 30px;
   display: none;
 }
 .p6Con.w980 {
@@ -671,6 +727,34 @@ li {
 .p5Con li p {
   margin-top: 10px;
 }
+
+.pic2 li {
+  float: left;
+  width: 100%;
+  font-size: 32px;
+  margin: 0 10px;
+  overflow: hidden;
+  line-height: 56px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.pic2 li img {
+  display: block;
+  margin-bottom: 8px;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.p5Con {
+  height: calc(100% - 210px);
+  overflow: hidden;
+}
+
+.more .p5Con {
+  height: auto;
+}
 .link {
   margin: 40px auto;
 }
@@ -720,36 +804,6 @@ li {
   z-index: 0;
 }
 /* 页面切换动画 */
-.o-page-scaleDown {
-	-webkit-animation: scaleDown .7s ease both;
-	-moz-animation: scaleDown .7s ease both;
-	animation: scaleDown .7s ease both;
-}
-
-@-webkit-keyframes scaleDown {
-	to { opacity: 0; -webkit-transform: scale(.8); }
-}
-@-moz-keyframes scaleDown {
-	to { opacity: 0; -moz-transform: scale(.8); }
-}
-@keyframes scaleDown {
-	to { opacity: 0; transform: scale(.8); }
-}
-.o-page-scaleUpDown {
-	-webkit-animation: scaleUpDown .5s ease both;
-	-moz-animation: scaleUpDown .5s ease both;
-	animation: scaleUpDown .5s ease both;
-}
-
-@-webkit-keyframes scaleUpDown {
-	from { opacity: 0; -webkit-transform: scale(1.2); }
-}
-@-moz-keyframes scaleUpDown {
-	from { opacity: 0; -moz-transform: scale(1.2); }
-}
-@keyframes scaleUpDown {
-	from { opacity: 0; transform: scale(1.2); }
-}
 .o-page-moveToLeft {
 	-webkit-animation: moveToLeft .6s ease both;
 	-moz-animation: moveToLeft .6s ease both;
@@ -809,6 +863,51 @@ li {
 }
 @keyframes moveFromLeft {
 	from { transform: translateX(-100%); }
+}
+.o-page-scaleDown {
+	-webkit-animation: scaleDown .7s ease both;
+	-moz-animation: scaleDown .7s ease both;
+	animation: scaleDown .7s ease both;
+}
+
+@-webkit-keyframes scaleDown {
+	to { opacity: 0; -webkit-transform: scale(.8); }
+}
+@-moz-keyframes scaleDown {
+	to { opacity: 0; -moz-transform: scale(.8); }
+}
+@keyframes scaleDown {
+	to { opacity: 0; transform: scale(.8); }
+}
+.o-page-scaleUpDown {
+	-webkit-animation: scaleUpDown .5s ease both;
+	-moz-animation: scaleUpDown .5s ease both;
+	animation: scaleUpDown .5s ease both;
+}
+
+@-webkit-keyframes scaleUpDown {
+	from { opacity: 0; -webkit-transform: scale(1.2); }
+}
+@-moz-keyframes scaleUpDown {
+	from { opacity: 0; -moz-transform: scale(1.2); }
+}
+@keyframes scaleUpDown {
+	from { opacity: 0; transform: scale(1.2); }
+}
+.o-page-scaleUp {
+	-webkit-animation: scaleUp .7s ease both;
+	-moz-animation: scaleUp .7s ease both;
+	animation: scaleUp .7s ease both;
+}
+
+@-webkit-keyframes scaleUp {
+	from { opacity: 0; -webkit-transform: scale(.8); }
+}
+@-moz-keyframes scaleUp {
+	from { opacity: 0; -moz-transform: scale(.8); }
+}
+@keyframes scaleUp {
+	from { opacity: 0; transform: scale(.8); }
 }
 
 /* 动画效果 */

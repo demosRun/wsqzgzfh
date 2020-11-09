@@ -19,6 +19,10 @@
         </ul>
         <div class="more1 clearfix">加载显示更多<img src="@|more.png|" alt=""></div>
       </div>
+      <div class="btn1" o-animation="flicker" o-tap="showMore">
+        加载显示更多
+        <img src="@|more.png|" alt="">
+      </div>
     </div>
   </div>
 </template>
@@ -36,27 +40,31 @@ module.exports = {
         }
       }
     })
+  },
+  showMore: function () {
+    this.$el.classList.add('more')
+    this.$target.style.display = 'none'
   }
 }
 </script>
 <style lang="less" original>
 .pic2{width:100%;margin:45px auto 0 auto;overflow: hidden;}
-.pic2 li {
+.page6 .pic2 li {
   float: left;
-  width: 100%;
-  font-size: 32px;
+  width: calc(50% - 20px);
+  font-size: 24px;
   margin: 0 10px;
   overflow: hidden;
-  line-height: 56px;
+  line-height: 36px;
   margin-top: 10px;
   color: #333;
 }
-.pic2 li img {
+.page6 .pic2 li img {
   display: block;
-  margin-bottom: 8px;
+  height: 192px;
   margin: 0 auto;
   width: 100%;
-  height: auto;
+  margin-bottom: 8px;
 }
 .more1 {
   font-size: 30px;

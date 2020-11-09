@@ -4,7 +4,9 @@
       <img class="title-bar" src="@|title-6.png|">
       <div class="w980 p7Con clearfix">
         <div class="fl">
-          <img src="http://leaders.people.com.cn/NMediaFile/2018/0921/MAIN201809210854519822755065110.jpg" width="610" height="372" alt="">
+          <div style="display: none;"><img src="http://leaders.people.com.cn/NMediaFile/2018/0921/MAIN201809210854519822755065110.jpg" width="610" height="372" alt=""></div>
+          <div style="display: none;"><img src="http://health.people.com.cn/NMediaFile/2020/1010/MAIN202010100920362021145337714.jpg" width="610" height="372" alt=""></div>
+          <div style="display: block;"><img src="http://health.people.com.cn/NMediaFile/2020/1015/MAIN202010150825515077270877676.jpg" width="610" height="372" alt=""></div>
         </div>
         <div class="fr">
           <ul class="list2 clearfix">

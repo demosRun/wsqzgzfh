@@ -4,13 +4,18 @@
       <img class="title-bar" src="@|title-2.png|">
       <div class="w980 p3Con clearfix">
         <div class="fl">
-          <img src="http://health.people.com.cn/NMediaFile/2020/1011/MAIN202010110705397936349050606.jpg" width="610" height="372">
+          <div class="pic3" style="display: none;"><img src="http://health.people.com.cn/NMediaFile/2020/1011/MAIN202010110705397936349050606.jpg" width="610" height="372"></div>
+          <div class="pic3" style="display: block;"><img src="http://health.people.com.cn/NMediaFile/2020/1010/MAIN202010100920362021145337714.jpg" width="610" height="372"></div>
         </div>
         <div class="fr">
-          <h3>分论坛一：各地留言办理单位经验交流</h3>
-          <p>距30px字体宋体，字号14号，行字号14号，行行间距30px字体宋体，字号14号字号14号字号14号行间距30px字体宋体……<a href="" class="red" target="_blank">[详细]</a></p>
-          <h3>分论坛二：各地留言办理单位经验交流</h3>
-          <p style="border-bottom: none;">距30px字体宋体，字号14号，行字号14号，行行间距30px字体宋体，字号14号字号14号字号距30px字体宋体，字号14号，行字号14号，行行间距30px字体宋体，字号14号字号14号字号14号行间距30px字体宋体……<a href="" class="red" target="_blank">[详细]</a></p>
+          <div class="txt2">
+            <h3>分论坛一：各地留言办理单位经验交流</h3>
+            <p>距30px字体宋体，字号14号，行字号14号，行行间距30px字体宋体，字号14号字号14号字号14号行间距30px字体宋体……<a href="" class="red" target="_blank">[详细]</a></p>
+          </div>
+          <div class="txt2">
+            <h3>分论坛二：各地留言办理单位经验交流</h3>
+            <p style="border-bottom: none;">距30px字体宋体，字号14号，行字号14号，行行间距30px字体宋体，字号14号字号14号字号距30px字体宋体，字号14号，行字号14号，行行间距30px字体宋体，字号14号字号14号字号14号行间距30px字体宋体……<a href="" class="red" target="_blank">[详细]</a></p>
+          </div>
         </div>
       </div>
     </div>
@@ -46,5 +51,13 @@ module.exports = {
   line-height: 46px;
   padding: 8px 0 20px 0;
   border-bottom: 1px solid #dedede;
+}
+.p4Con {
+  height: calc(100% - 192px);
+}
+.txt1 {
+  display: block;
+  height: calc(100% - 426px);
+  overflow: hidden;
 }
 </style>

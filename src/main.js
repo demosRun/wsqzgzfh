@@ -130,6 +130,11 @@ $(document).ready(function() {
       
         $(".pic3").eq($(this).index()).show();
     });
+    // $(".txt2").bind('touchstart',function(){
+    //     $(".pic3").hide();
+      
+    //     $(".pic3").eq($(this).index()).show();
+    // });
     /*p4Con*/
     $(".sub2 li").bind('mouseover',function(){
         $(".sub2 li").attr("class","");
@@ -137,7 +142,7 @@ $(document).ready(function() {
       
         $(this).attr("class","active");
         $(".txt1").eq($(this).index()).show();
-        $(".btn1").show();
+        // $(".btn1").show();
     });
     $(".more2").click(function(){
         if ($(this).text() == "收起") {
@@ -170,7 +175,7 @@ $(document).ready(function() {
         $(this).text((i+1));
     })
     /*p7Con*/
-    $(".list2 li").bind('mouseover',function(){
+    $(".list2 li").bind('touchstart',function(){
         $(".p7Con .fl div").hide();
 
         $(".p7Con .fl div").eq($(this).index()).show();

@@ -18,6 +18,10 @@
           <li style="margin-right: 0px;"><img src="http://leaders.people.com.cn/NMediaFile/2018/1024/MAIN201810240913425612061674875.jpg" width="216" height="156" alt=""><p>图片说明（两排文字）图片说明图片（两排文字）（两排文字）</p></li>
         </ul>
       </div>
+      <div class="btn1" o-animation="flicker" o-tap="showMore">
+        加载显示更多
+        <img src="@|more.png|" alt="">
+      </div>
     </div>
   </div>
 </template>
@@ -35,11 +39,39 @@ module.exports = {
         }
       }
     })
+  },
+  showMore: function () {
+    this.$el.classList.add('more')
+    this.$target.style.display = 'none'
   }
 }
 </script>
 <style lang="less" original>
 .p5Con li p {
   margin-top: 10px;
+}
+.pic2 li {
+  float: left;
+  width: 100%;
+  font-size: 32px;
+  margin: 0 10px;
+  overflow: hidden;
+  line-height: 56px;
+  margin-top: 10px;
+  color: #333;
+}
+.pic2 li img {
+  display: block;
+  margin-bottom: 8px;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+.p5Con {
+  height: calc(100% - 210px);
+  overflow: hidden;
+}
+.more .p5Con {
+  height: auto;
 }
 </style>

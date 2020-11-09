@@ -26,48 +26,43 @@
         <p>我为家乡“十四五”规划编制献一策：建议加快农村旱厕改造</p>
       </div>
       <div class="w980 p1Con clearfix">
-        <div class="fl">
-          <ul class="pic1">
-            <li>
-              <img src="http://liuyan.people.com.cn/NMediaFile/2018/1030/MAIN201810300808372382937847751.jpg" width="224" height="132" alt="">
-              <b>中国社会科学院社会政策研究中心研究员唐钧：</b>
-              用好网上群众工作平台，普惠民生政策关怀。面对网友诉求领导干部不宜“躲”。<a href="" class="red" target="_blank">[详细]</a>
-            </li>
-            <li>
-              <img src="http://liuyan.people.com.cn/NMediaFile/2018/1030/MAIN201810300808372382937847751.jpg" width="224" height="132" alt="">
-              <b>中国社会科学院社会政策研究中心研究员唐钧：</b>
-              用好网上群众工作平台，普惠民生政策关怀。面对网友诉求领导干部不宜“躲”。<a href="" class="red" target="_blank">[详细]</a>
-            </li>
-          </ul>
-          <ul class="list1 list_18 clearfix">
-            <li>人民日报评论：“地方领导留言板”为何越办越火</li>
-            <li>电子体育是体育+科技 中国电竞还有很长路要走</li>
-            <li>家是一种归属感 年轻人关注国家政策有利发展</li>
-            <li>电子体育是体育+科技 中国电竞还有很长路要走</li>
-            <li>人民日报评论：“地方领导留言板”为何越办越火</li>
-          </ul>
-        </div>
-        <div class="fr">
-          <ul class="pic1">
-            <li>
-              <img src="http://liuyan.people.com.cn/NMediaFile/2018/1030/MAIN201810300808372382937847751.jpg" width="224" height="132" alt="">
-              <b>中国社会科学院社会政策研究中心研究员唐钧：</b>
-              用好网上群众工作平台，普惠民生政策关怀。面对网友诉求领导干部不宜“躲”。<a href="" class="red" target="_blank">[详细]</a>
-            </li>
-            <li>
-              <img src="http://liuyan.people.com.cn/NMediaFile/2018/1030/MAIN201810300808372382937847751.jpg" width="224" height="132" alt="">
-              <b>中国社会科学院社会政策研究中心研究员唐钧：</b>
-              用好网上群众工作平台，普惠民生政策关怀。面对网友诉求领导干部不宜“躲”。<a href="" class="red" target="_blank">[详细]</a>
-            </li>
-          </ul>
-          <ul class="list1 list_18 clearfix">
-            <li>人民日报评论：“地方领导留言板”为何越办越火</li>
-            <li>电子体育是体育+科技 中国电竞还有很长路要走</li>
-            <li>家是一种归属感 年轻人关注国家政策有利发展</li>
-            <li>电子体育是体育+科技 中国电竞还有很长路要走</li>
-            <li>人民日报评论：“地方领导留言板”为何越办越火</li>
-          </ul>
-        </div>
+        <ul class="pic1">
+          <li>
+            <img src="http://liuyan.people.com.cn/NMediaFile/2018/1030/MAIN201810300808372382937847751.jpg" width="224" height="132" alt="">
+            <b>中国社会科学院社会政策研究中心研究员唐钧：</b>
+            <p>用好网上群众工作平台，普惠民生政策关怀。面对网友诉求领导干部不宜“躲”。<a href="" class="red" target="_blank">[详细]</a></p>
+          </li>
+          <li>
+            <img src="http://liuyan.people.com.cn/NMediaFile/2018/1030/MAIN201810300808372382937847751.jpg" width="224" height="132" alt="">
+            <b>中国社会科学院社会政策研究中心研究员唐钧：</b>
+            <p>用好网上群众工作平台，普惠民生政策关怀。面对网友诉求领导干部不宜“躲”。<a href="" class="red" target="_blank">[详细]</a></p>
+          </li>
+          <li>
+            <img src="http://liuyan.people.com.cn/NMediaFile/2018/1030/MAIN201810300808372382937847751.jpg" width="224" height="132" alt="">
+            <b>中国社会科学院社会政策研究中心研究员唐钧：</b>
+            <p>用好网上群众工作平台，普惠民生政策关怀。面对网友诉求领导干部不宜“躲”。<a href="" class="red" target="_blank">[详细]</a></p>
+          </li>
+          <li>
+            <img src="http://liuyan.people.com.cn/NMediaFile/2018/1030/MAIN201810300808372382937847751.jpg" width="224" height="132" alt="">
+            <b>中国社会科学院社会政策研究中心研究员唐钧：</b>
+            <p>用好网上群众工作平台，普惠民生政策关怀。面对网友诉求领导干部不宜“躲”。<a href="" class="red" target="_blank">[详细]</a></p>
+          </li>
+        </ul>
+        <ul class="list1 list_18 clearfix">
+          <li>人民日报评论：“地方领导留言板”为何越办越火</li>
+          <li>电子体育是体育+科技 中国电竞还有很长路要走</li>
+          <li>家是一种归属感 年轻人关注国家政策有利发展</li>
+          <li>电子体育是体育+科技 中国电竞还有很长路要走</li>
+          <li>人民日报评论：“地方领导留言板”为何越办越火</li>
+        </ul>
+        
+        <ul class="list1 list_18 clearfix">
+          <li>人民日报评论：“地方领导留言板”为何越办越火</li>
+          <li>电子体育是体育+科技 中国电竞还有很长路要走</li>
+          <li>家是一种归属感 年轻人关注国家政策有利发展</li>
+          <li>电子体育是体育+科技 中国电竞还有很长路要走</li>
+          <li>人民日报评论：“地方领导留言板”为何越办越火</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -76,6 +71,7 @@
 <script>
 module.exports = {
   created: function () {
+    console.log(document.querySelector('.menu'))
     owo.tool.touch({
       el: this.query('.allow-swipe'),
       end: function (e) {
@@ -126,18 +122,29 @@ module.exports = {
   font-size: 22px;
   line-height: 28px;
   overflow: hidden;
+  width: 50%;
+  float: left;
+}
+.pic1 li p {
+  display: none;
 }
 .pic1 li img {
-  float: left;
-  margin-right: 22px;
-  width: 291px;
-  height: 172px;
+  width: 310px;
+  height: 192px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 .pic1 li b {
   display: block;
-  font-size: 32px;
-  line-height: 39px;
+  font-size: 26px;
+  line-height: 40px;
   margin-bottom: 5px;
+  padding: 0 10px;
+  text-align: center;
+  font-weight: normal;
+  height: 80px;
+  overflow: hidden;
 }
 .list1{margin:0 auto;}
 .list1 li {

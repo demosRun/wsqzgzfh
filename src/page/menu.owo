@@ -2,14 +2,15 @@
 .menu
   img.menu-icon(src="@|menu.png|" o-tap="switchMenu")
   .menu-item-box
-    .menu-item(go="page2//scaleDown/scaleUpDown/true/scaleDown/scaleUp") 重点推荐
-    .menu-item(go="page3//scaleDown/scaleUpDown/true/scaleDown/scaleUp") 论坛
-    .menu-item(go="page4//scaleDown/scaleUpDown/true/scaleDown/scaleUp") 会议日程
-    .menu-item(go="page5//scaleDown/scaleUpDown/true/scaleDown/scaleUp") 现场图片
-    .menu-item(go="page6//scaleDown/scaleUpDown/true/scaleDown/scaleUp") 微视·观察
-    .menu-item(go="page7//scaleDown/scaleUpDown/true/scaleDown/scaleUp") 智库·共享
-    .menu-item(go="page8//scaleDown/scaleUpDown/true/scaleDown/scaleUp") 融合·共建
-    .menu-item(go="page9//scaleDown/scaleUpDown/true/scaleDown/scaleUp") 鸣谢单位
+    .menu-item(o-tap="turn('page2')") 重点推荐
+    .menu-item(o-tap="turn('page3')") 数智协同
+    .menu-item(o-tap="turn('page4')") 论坛交流
+    .menu-item(o-tap="turn('page5')") 会议日程
+    .menu-item(o-tap="turn('page6')") 现场图片
+    .menu-item(o-tap="turn('page7')") 微视观察
+    .menu-item(o-tap="turn('page8')") 智库共享
+    .menu-item(o-tap="turn('page9')") 融合共建
+    .menu-item(o-tap="turn('page10')") 鸣谢单位
 </template>
 <script>
 module.exports = {
@@ -23,6 +24,11 @@ module.exports = {
     } else {
       this.query('.menu-item-box').style.display = 'none'
     }
+  },
+  turn: function (page) {
+    owo.go(page + '//scaleDown/scaleUpDown/true/scaleDown/scaleUp')
+    this.query('.menu-item-box').style.display = 'none'
+    this.data.menuShow = false
   }
 }
 </script>
@@ -30,10 +36,9 @@ module.exports = {
 .menu {
   position: absolute;
   right: 10px;
-  top: 60px;
+  bottom: 10px;
   width: 70px;
   height: 70px;
-  display: none;
 }
 .menu-icon {
   width: 70px;
@@ -42,6 +47,7 @@ module.exports = {
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 0.9;
 }
 .menu-item {
   color: #222222;
@@ -59,11 +65,11 @@ module.exports = {
   line-height: 22px;
   position: absolute;
   width: 60px;
-  top: 0;
+  bottom: 0;
   z-index: 1;
-  padding-top: 70px;
+  padding-bottom: 70px;
   border-radius: 35px;
-  padding-bottom: 30px;
+  padding-top: 30px;
   display: none;
 }
 </style>
